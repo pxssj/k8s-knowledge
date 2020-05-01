@@ -1,3 +1,4 @@
+```
 $ vim deployment-nginx.yaml 
 $ kubectl apply -f deployment-nginx.yaml 
 $ kubectl get deployments -w
@@ -24,3 +25,4 @@ $ kubectl rollout history deployment nginx-deployment
 $ kubectl rollout undo deployment nginx-deployment --to-revision=2
 $ kubectl get rs,pods,deployments
 $ kubectl delete deployment nginx-deployment
+```
